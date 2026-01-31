@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gestión de Tareas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Gestión de Tareas</h1>
+    
+    <div class="controls-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Buscar tareas..."
+      />
+      <select id="sortSelect">
+        <option value="created">Ordenar por creación</option>
+        <option value="due">Ordenar por fecha límite</option>
+      </select>
+    </div>
+
+    <form id="task-form">
+      <input type="text" id="title" placeholder="Título" required />
+      <input type="text" id="description" placeholder="Descripción" />
+      <input type="date" id="dueDate" />
+      <button type="submit">Crear tarea</button>
+    </form>
+
+    <div class="bottom-controls">
+      <button id="clearCompletedBtn">Limpiar tareas completadas</button>
+      <p id="taskCounter">Total: 0 | Pendientes: 0</p>
+    </div>
+
+    <ul id="task-list">
+    </ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
