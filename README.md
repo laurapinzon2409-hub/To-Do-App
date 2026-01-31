@@ -46,9 +46,9 @@ To-Do App es una aplicación de gestión de tareas que permite crear, actualizar
   5. Instrucciones para ejecutar el proyecto:
     •	Backend:
       o	Ejecutamos estos comandos en la terminal dentro de la carpeta del proyecto en orden:
-        	1.cd Backend
-        	2.npm install
-        	3.node app.js
+        	1. cd Backend
+        	2. npm install
+        	3. node app.js
       o	El servidor se ejecutará en:
         	http://localhost:3000
     •	Frontend:
